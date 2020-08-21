@@ -1,0 +1,21 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "sh": "node sh.js"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "rsync": "^0.6.1",
+    "shelljs": "^0.8.4",
+    "vuepress": "1.4.1",
+    "vuepress-theme-reco": "1.4.5"
+  },
+  "description": "",
+  "dependencies": {
+    "vuepress-plugin-helper-live2d": "^1.0.2"
+  }
+}
